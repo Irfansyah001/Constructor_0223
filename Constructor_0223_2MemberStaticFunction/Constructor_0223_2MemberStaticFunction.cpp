@@ -37,3 +37,8 @@ void mahasiswa::printALL()
     cout << endl;
 }
 
+int main()
+{
+    mahasiswa mhs1("Sri Dadi");
+    mahasiswa mhs2("Budi Jatmiko");
+}
