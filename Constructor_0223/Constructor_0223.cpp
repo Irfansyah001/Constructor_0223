@@ -20,7 +20,12 @@ public:
 
 };
 
+int mahasiswa::nim = 223;
 
+void mahasiswa::setID()
+{
+    id = ++nim;
+}
 int main()
 {
     std::cout << "Hello World!\n";
