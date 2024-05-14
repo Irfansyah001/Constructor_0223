@@ -15,9 +15,12 @@ public:
     mahasiswa(string pnama)
     {
         nama = pnama;
-        setID;
+        setID();
     }
+
 };
+
+
 int main()
 {
     std::cout << "Hello World!\n";
