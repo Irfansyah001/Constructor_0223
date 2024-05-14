@@ -41,4 +41,9 @@ int main()
 {
     mahasiswa mhs1("Sri Dadi");
     mahasiswa mhs2("Budi Jatmiko");
+
+    mahasiswa::setNim(223);
+    mahasiswa mhs3("Andi Janu");
+    mahasiswa mhs4("Joko Wahono");
+
 }
