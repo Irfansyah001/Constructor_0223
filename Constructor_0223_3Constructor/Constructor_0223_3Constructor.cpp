@@ -33,3 +33,18 @@ public:
 		cout << endl;
 	};
 };
+
+int main()
+{
+	Mahasiswa mhs1;
+	Mahasiswa mhs2(20);
+	Mahasiswa mhs3("Indra");
+	Mahasiswa mhs4(30, "Fauzan");
+
+	mhs1.cetak();
+	mhs2.cetak();
+	mhs3.cetak();
+	mhs4.cetak();
+
+	return 0;
+}
